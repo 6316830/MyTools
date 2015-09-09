@@ -2,11 +2,11 @@
 <resources>
     <string-array name="more">
         <item>我的位置</item>
-        <item>Two</item>
-        <item>33</item>
-        <item>44</item>
-        <item>55</item>
-        <item>66</item>
-        <item>77</item>
+        <item>日记本</item>
+        <item>日程安排</item>
+        <item>计划</item>
+        <item>目标</item>
+        <item>总结</item>
+        <item>感慨</item>
    </string-array>
 </resources>

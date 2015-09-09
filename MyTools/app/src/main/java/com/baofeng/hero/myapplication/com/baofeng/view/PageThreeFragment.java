@@ -82,6 +82,10 @@ public class PageThreeFragment extends Fragment {
                       Intent intent=new Intent(getActivity(),MyPositionActivity.class);
                       startActivity(intent);
                       break;
+                  case  1:
+                      intent=new Intent(getActivity(),MyNoteActivity.class);
+                      startActivity(intent);
+                      break;
               }
         }
     };
