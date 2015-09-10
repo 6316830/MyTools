@@ -60,6 +60,11 @@
             android:name=".com.baofeng.view.MyNoteActivity"
             android:label="@string/title_activity_my_note" >
         </activity>
+      <service android:name=".com.baofeng.services.ToolService">
+            <intent-filter>
+                <action android:name="com.services.toolservice"/>
+            </intent-filter>
+      </service>
     </application>
 
 </manifest>

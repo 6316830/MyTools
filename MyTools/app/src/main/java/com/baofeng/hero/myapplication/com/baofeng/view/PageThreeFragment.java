@@ -4,6 +4,7 @@ package com.baofeng.hero.myapplication.com.baofeng.view;
 import android.content.Intent;
 import android.os.Bundle;
 import android.app.Fragment;
+import android.os.Environment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,6 +13,8 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import com.baofeng.hero.myapplication.R;
+
+import java.io.File;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -64,6 +67,9 @@ public class PageThreeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        //File dataDir = Environment.getDataDirectory();
+       // File systemDir = new File(dataDir, "system");
+      //  systemDir.mkdirs();
         mainView=inflater.inflate(R.layout.fragment_page_three, container, false);
         return mainView;
     }

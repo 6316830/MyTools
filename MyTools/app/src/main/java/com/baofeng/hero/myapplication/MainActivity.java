@@ -50,6 +50,8 @@ public class MainActivity extends AppCompatActivity {
         notification.flags = Notification.FLAG_ONGOING_EVENT; // 设置常驻 Flag
         notificationManager=(NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);
         notificationManager.notify(111,notification);
+        Intent intent1=new Intent("com.services.toolservice");
+        startService(intent1);
     }
 
     @Override
