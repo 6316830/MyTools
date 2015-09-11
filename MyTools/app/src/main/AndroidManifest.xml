@@ -3,7 +3,7 @@
     package="com.baofeng.hero.myapplication" >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="16"
         android:targetSdkVersion="21" />
 
     <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -25,8 +25,6 @@
         <uses-permission android:name="android.permission.GET_TASKS" />
         <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
         <uses-permission android:name="android.permission.WRITE_SETTINGS" />
-
-        
 
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
@@ -60,11 +58,17 @@
             android:name=".com.baofeng.view.MyNoteActivity"
             android:label="@string/title_activity_my_note" >
         </activity>
-      <service android:name=".com.baofeng.services.ToolService">
+
+        <service android:name=".com.baofeng.services.ToolService" >
             <intent-filter>
-                <action android:name="com.services.toolservice"/>
+                <action android:name="com.services.toolservice" />
             </intent-filter>
-      </service>
+        </service>
+
+        <activity
+            android:name=".com.baofeng.view.NewDayItemActivity"
+            android:label="@string/title_activity_new_day_item" >
+        </activity>
     </application>
 
 </manifest>

@@ -8,9 +8,9 @@
        android:layout_width="match_parent"
        android:layout_height="match_parent"
        android:entries="@array/more"
-       android:divider="@color/navajowhite"
+       android:divider="@color/green"
        android:dividerHeight="5dp"
        android:headerDividersEnabled="true"
-       android:background="@color/moccasin"/>
+      />
 
 </FrameLayout>
